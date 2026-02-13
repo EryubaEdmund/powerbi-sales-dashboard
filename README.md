@@ -1,14 +1,14 @@
-# Power BI Sales Dashboard
+# Power BI Health & Medical Analysis Dashboard
 
 ## Overview
-This report analyzes sales performance by region and product.
+This report analyzes health and medical prevalence by region, diagnosis and revenue from cost generated.
 
 ## Files
 - Medical Analysis Dashboard.pbip – Main report
 - Hospital_Pharmacy_PowerBI.xlsx – Sample dataset
 
 ## How to Use
-1. Download the .pbix file
+1. Download the .pbip file
 2. Open in Power BI Desktop
 3. Update data source if needed
 4. Refresh
@@ -38,6 +38,9 @@ Uasin Gishu emerging as the highest revenue-generating county suggests either hi
 
 This highlights that revenue optimization is not only a function of volume but also of department mix and treatment intensity. This insight can inform pricing strategies, inventory planning, and identification of high-value service locations.
 
+### Visits vs Revenue Preview
+![Visvsrev](screenshots/Visits_vs_revenue.png)
+
 ### 3. Departmental Cost Drivers
 
 The pie chart analysis shows that the inpatient department accounts for the highest proportion of pharmacy costs (34.41%), slightly exceeding emergency and outpatient services. 
@@ -54,6 +57,9 @@ This reflects the epidemiological reality that older populations experience high
 
 This insight has strong strategic implications: the hospital should anticipate growing pharmaceutical demand as the patient population ages, particularly for chronic disease medications. It also supports proactive planning for geriatric care services, long-term treatment programs, and inventory forecasting focused on age-sensitive drug categories.
 
+### Medication Consumption Preview
+![Medic](screenshots/Midic_by_age_group.png)
+
 ### 5. Length of Stay vs Revenue Efficiency
 
 The combined analysis of average length of stay and revenue per visit highlights an important operational paradox. Conditions such as malaria and diabetes generate higher revenue per visit despite shorter hospital stays, whereas pneumonia, hypertension, and flu result in longer stays but lower revenue per visit. 
@@ -62,6 +68,12 @@ This indicates that some diagnoses are resource-intensive without being financia
 
 For hospital management, this insight is critical for capacity planning and service line evaluation. It suggests the need to redesign clinical pathways for long-stay, low-revenue conditions, potentially through outpatient management, preventive care, or improved discharge protocols to reduce inefficiencies.
 
+### Length of stay vs Revenue Preview
+![Stay](screenshots/Rev_per_length_of_stay.png)
+
 ## Overall Strategic Implication
 
 Collectively, these insights show that hospital performance is driven not merely by patient volume, but by the interaction between disease mix, demographic structure, departmental workflows, and treatment economics. The dashboard enables management to identify where clinical demand is highest, where costs are concentrated, and where operational inefficiencies exist. This creates a foundation for evidence-based decisions in staffing, budgeting, pharmaceutical procurement, and long-term healthcare planning.
+
+## Dashboard Preview
+![Main](screenshots/Hospital_Analysis_Dashboard.png)
